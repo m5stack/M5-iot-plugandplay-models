@@ -1,0 +1,51 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:m5stack:builtin:imu;1",
+  "@type": "Interface",
+  "displayName": "imu",
+  "contents": [
+    {
+      "@type": [ "Telemetry", "Acceleration" ],
+      "name": "AccelX",
+      "displayName": "Accel x-axis",
+      "schema": "double",
+      "unit": "metrePerSecondSquared"
+    },
+    {
+      "@type": [ "Telemetry", "Acceleration" ],
+      "name": "AccelY",
+      "displayName": "Accel y-axis",
+
+      "schema": "double",
+      "unit": "metrePerSecondSquared"
+    },
+    {
+      "@type": [ "Telemetry", "Acceleration" ],
+      "name": "AccelZ",
+      "displayName": "Accel z-axis",
+      "schema": "double",
+      "unit": "metrePerSecondSquared"
+    },
+    {
+      "@type": [ "Telemetry", "AngularVelocity"],
+      "name": "GyroX",
+      "displayName": "GyroZ x-axis",
+      "schema": "double",
+      "unit": "degreePerSecond"
+    },
+    {
+      "@type": [ "Telemetry", "AngularVelocity"],
+      "name": "GyroY",
+      "displayName": "GyroZ y-axis",
+      "schema": "double",
+      "unit": "degreePerSecond"
+    },
+    {
+      "@type": [ "Telemetry", "AngularVelocity"],
+      "name": "GyroZ",
+      "displayName": "GyroZ z-axis",
+      "schema": "double",
+      "unit": "degreePerSecond"
+    }
+  ]
+}

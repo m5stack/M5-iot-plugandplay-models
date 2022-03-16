@@ -1,0 +1,32 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:m5stack:builtin:speaker;1",
+  "@type": "Interface",
+  "displayName": "speaker",
+  "contents": [
+    {
+      "@type": "Command",
+      "name": "play_local",
+      "request": {
+        "name": "local_path",
+        "schema": "string" 
+      }
+    },
+    {
+      "@type": "Command",
+      "name": "play_sd",
+      "request": {
+        "name": "sd_path",
+        "schema": "string" 
+      }
+    },
+    {
+      "@type": "Command",
+      "name": "play_cloud",
+      "request": {
+        "name": "cloud_path",
+        "schema": "string" 
+      }
+    }
+  ]
+}

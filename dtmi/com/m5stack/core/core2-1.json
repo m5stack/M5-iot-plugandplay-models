@@ -1,0 +1,28 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:m5stack:core:core2;1",
+  "@type": "Interface",
+  "displayName": "core2",
+  "contents": [
+    {
+      "@type": "Component",
+      "name": "speaker",
+      "schema": "dtmi:com:m5stack:builtin:speaker;1"
+    },
+    {
+      "@type": "Component",
+      "name": "microphone",
+      "schema": "dtmi:com:m5stack:builtin:microphone;1"
+    },
+    {
+      "@type": "Component",
+      "name": "imu",
+      "schema": "dtmi:com:m5stack:builtin:imu;1"
+    },
+    {
+      "@type": "Component",
+      "name": "rtc",
+      "schema": "dtmi:com:m5stack:builtin:rtc;1"
+    }
+  ]
+}

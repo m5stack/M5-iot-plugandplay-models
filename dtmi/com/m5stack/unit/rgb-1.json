@@ -1,0 +1,39 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:m5stack:unit:rgb;1",
+  "@type": "Interface",
+  "displayName": "rgb",
+  "contents": [
+    {
+      "@type": "Command",
+      "name": "set_color",
+      "request": {
+        "name": "input_param",
+        "schema": {
+          "@type": "Object",
+          "fields": [
+            {
+              "name": "index",
+              "displayName": "Index of LED",
+              "schema": "integer"
+            },
+            {
+              "name": "rgb_value",
+              "displayName": "RGB of LED",
+              "schema": "integer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@type": "Command",
+      "name": "set_rgb_brightness",
+      "request": {
+        "name": "brightness",
+        "displayName": "All LED Brightness",
+        "schema": "integer"
+      }
+    }
+  ]
+}

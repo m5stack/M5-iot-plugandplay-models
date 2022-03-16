@@ -1,0 +1,14 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:m5stack:unit:button;1",
+  "@type": "Interface",
+  "displayName": "button",
+  "contents": [
+    {
+      "@type": [ "Telemetry" ],
+      "name": "button_event",
+      "displayName": "Button Event",
+      "schema": "string"
+    }
+  ]
+}

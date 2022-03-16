@@ -1,0 +1,28 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:m5stack:builtin:microphone;1",
+  "@type": "Interface",
+  "displayName": "microphone",
+  "contents": [
+    {
+      "@type": "Command",
+      "name": "record",
+      "request": {
+        "name": "input_param",
+        "schema": {
+          "@type": "Object",
+          "fields": [
+            {
+              "name": "duration",
+              "schema": "integer"
+            },
+            {
+              "name": "filename",
+              "schema": "string"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

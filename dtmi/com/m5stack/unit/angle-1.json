@@ -1,0 +1,15 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:m5stack:unit:angle;1",
+  "@type": "Interface",
+  "displayName": "angle",
+  "contents": [
+    {
+      "@type": [ "Property", "Angle" ],
+      "name": "angle",
+      "displayName": "Angle",
+      "schema": "integer",
+      "unit": "radian"
+    }
+  ]
+}

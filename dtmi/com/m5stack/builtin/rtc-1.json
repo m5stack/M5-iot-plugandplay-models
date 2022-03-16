@@ -1,0 +1,24 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:m5stack:builtin:rtc;1",
+  "@type": "Interface",
+  "displayName": "rtc",
+  "contents": [
+    {
+      "@type": "Command",
+      "name": "set_rtc",
+      "request": {
+        "name": "date_time",
+        "schema": "dateTime"
+      }
+    },
+    {
+      "@type": "Command",
+      "name": "get_rtc",
+      "response": {
+        "name": "date_time",
+        "schema": "dateTime"
+      }
+    }
+  ]
+}
