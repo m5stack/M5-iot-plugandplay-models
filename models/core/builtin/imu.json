@@ -29,21 +29,21 @@
     {
       "@type": [ "Telemetry", "AngularVelocity"],
       "name": "GyroX",
-      "displayName": "GyroZ x-axis",
+      "displayName": "Gyro x-axis",
       "schema": "double",
       "unit": "degreePerSecond"
     },
     {
       "@type": [ "Telemetry", "AngularVelocity"],
       "name": "GyroY",
-      "displayName": "GyroZ y-axis",
+      "displayName": "Gyro y-axis",
       "schema": "double",
       "unit": "degreePerSecond"
     },
     {
       "@type": [ "Telemetry", "AngularVelocity"],
       "name": "GyroZ",
-      "displayName": "GyroZ z-axis",
+      "displayName": "Gyro z-axis",
       "schema": "double",
       "unit": "degreePerSecond"
     }
