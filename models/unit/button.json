@@ -8,7 +8,7 @@
       "@type": [ "Telemetry" ],
       "name": "button_event",
       "displayName": "Button Event",
-      "schema": "string"
+      "schema": "boolean"
     }
   ]
 }
