@@ -18,8 +18,18 @@
               "schema": "integer"
             },
             {
-              "name": "rgb_value",
-              "displayName": "RGB of LED",
+              "name": "red",
+              "displayName": "Red color",
+              "schema": "integer"
+            },
+            {
+              "name": "green",
+              "displayName": "Green color",
+              "schema": "integer"
+            },
+            {
+              "name": "blue",
+              "displayName": "Blue color",
               "schema": "integer"
             }
           ]

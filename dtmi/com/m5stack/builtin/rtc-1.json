@@ -2,7 +2,7 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:m5stack:builtin:rtc;1",
   "@type": "Interface",
-  "displayName": "rtc",
+  "displayName": "RTC",
   "contents": [
     {
       "@type": "Command",

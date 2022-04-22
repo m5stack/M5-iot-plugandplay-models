@@ -1,0 +1,53 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:m5stack:builtin:device_info;1",
+  "@type": "Interface",
+  "displayName": "device information",
+  "contents": [
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Manufacturer"
+      },
+      "name": "manufacturer",
+      "schema": "string",
+      "writable": false
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Product Name"
+      },
+      "name": "product_name",
+      "schema": "string",
+      "writable": false
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Device serial number"
+      },
+      "name": "device_sn",
+      "schema": "string",
+      "writable": false
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Device MAC address"
+      },
+      "name": "device_mac",
+      "schema": "string",
+      "writable": false
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Firmware verison"
+      },
+      "name": "fw_version",
+      "schema": "string",
+      "writable": false
+    }
+  ]
+}
