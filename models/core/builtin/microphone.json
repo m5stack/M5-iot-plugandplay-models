@@ -2,11 +2,16 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:m5stack:builtin:microphone;1",
   "@type": "Interface",
-  "displayName": "microphone",
+  "displayName": {
+    "en": "Microphone"
+  },
   "contents": [
     {
       "@type": "Command",
       "name": "record",
+      "displayName": {
+        "en": "Record Sound"
+      },
       "request": {
         "name": "input_param",
         "schema": {
@@ -14,11 +19,17 @@
           "fields": [
             {
               "name": "duration",
-              "schema": "integer"
+              "schema": "integer",
+              "displayName": {
+                "en": "Recording Duration"
+              }
             },
             {
               "name": "filename",
-              "schema": "string"
+              "schema": "string",
+              "displayName": {
+                "en": "Output Filename"
+              }
             }
           ]
         }

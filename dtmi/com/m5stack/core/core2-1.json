@@ -2,16 +2,18 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:m5stack:core:core2;1",
   "@type": "Interface",
-  "displayName": "core2",
+  "displayName": {
+    "en": "M5Stack Core2"
+  },
   "contents": [
     {
       "@type": "Component",
-      "name": "speaker",
+      "name": "Speaker",
       "schema": "dtmi:com:m5stack:builtin:speaker;1"
     },
     {
       "@type": "Component",
-      "name": "microphone",
+      "name": "Microphone",
       "schema": "dtmi:com:m5stack:builtin:microphone;1"
     },
     {
@@ -26,17 +28,17 @@
     },
     {
       "@type": "Component",
-      "name": "power",
+      "name": "Power",
       "schema": "dtmi:com:m5stack:builtin:power;1"
     },
     {
       "@type": "Component",
-      "name": "device_info",
+      "name": "DeviceInformation",
       "schema": "dtmi:com:m5stack:builtin:device_info;1"
     },
     {
       "@type": "Component",
-      "name": "screen",
+      "name": "Screen",
       "schema": "dtmi:com:m5stack:builtin:screen;1"
     }
   ]

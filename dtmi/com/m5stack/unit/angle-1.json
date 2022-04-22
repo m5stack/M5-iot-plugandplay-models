@@ -2,14 +2,21 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:m5stack:unit:angle;1",
   "@type": "Interface",
-  "displayName": "angle",
+  "displayName": {
+    "en": "UNIT Angle"
+  },
   "contents": [
     {
-      "@type": [ "Property", "Angle" ],
+      "@type": [
+        "Property",
+        "Angle"
+      ],
       "name": "angle",
-      "displayName": "Angle",
       "schema": "integer",
-      "unit": "radian"
+      "unit": "radian",
+      "displayName": {
+        "en": "Angle"
+      }
     }
   ]
 }

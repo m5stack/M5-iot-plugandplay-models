@@ -2,50 +2,81 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:m5stack:builtin:imu;1",
   "@type": "Interface",
-  "displayName": "IMU",
+  "displayName": {
+    "en": "Inertial Measurement Units"
+  },
   "contents": [
     {
-      "@type": [ "Telemetry", "Acceleration" ],
+      "@type": [
+        "Telemetry",
+        "Acceleration"
+      ],
       "name": "AccelX",
-      "displayName": "Accel x-axis",
       "schema": "double",
-      "unit": "metrePerSecondSquared"
+      "unit": "metrePerSecondSquared",
+      "displayName": {
+        "en": "Accel x-axis"
+      }
     },
     {
-      "@type": [ "Telemetry", "Acceleration" ],
+      "@type": [
+        "Telemetry",
+        "Acceleration"
+      ],
       "name": "AccelY",
-      "displayName": "Accel y-axis",
-
       "schema": "double",
-      "unit": "metrePerSecondSquared"
+      "unit": "metrePerSecondSquared",
+      "displayName": {
+        "en": "Accel y-axis"
+      }
     },
     {
-      "@type": [ "Telemetry", "Acceleration" ],
+      "@type": [
+        "Telemetry",
+        "Acceleration"
+      ],
       "name": "AccelZ",
-      "displayName": "Accel z-axis",
       "schema": "double",
-      "unit": "metrePerSecondSquared"
+      "unit": "metrePerSecondSquared",
+      "displayName": {
+        "en": "Accel z-axis"
+      }
     },
     {
-      "@type": [ "Telemetry", "AngularVelocity"],
+      "@type": [
+        "Telemetry",
+        "AngularVelocity"
+      ],
       "name": "GyroX",
-      "displayName": "Gyro x-axis",
       "schema": "double",
-      "unit": "degreePerSecond"
+      "unit": "degreePerSecond",
+      "displayName": {
+        "en": "Gyro x-axis"
+      }
     },
     {
-      "@type": [ "Telemetry", "AngularVelocity"],
+      "@type": [
+        "Telemetry",
+        "AngularVelocity"
+      ],
       "name": "GyroY",
-      "displayName": "Gyro y-axis",
       "schema": "double",
-      "unit": "degreePerSecond"
+      "unit": "degreePerSecond",
+      "displayName": {
+        "en": "Gyro y-axis"
+      }
     },
     {
-      "@type": [ "Telemetry", "AngularVelocity"],
+      "@type": [
+        "Telemetry",
+        "AngularVelocity"
+      ],
       "name": "GyroZ",
-      "displayName": "Gyro z-axis",
       "schema": "double",
-      "unit": "degreePerSecond"
+      "unit": "degreePerSecond",
+      "displayName": {
+        "en": "Gyro z-axis"
+      }
     }
   ]
 }

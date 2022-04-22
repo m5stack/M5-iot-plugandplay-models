@@ -2,13 +2,19 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:m5stack:unit:button;1",
   "@type": "Interface",
-  "displayName": "button",
+  "displayName": {
+    "en": "UNIT Button"
+  },
   "contents": [
     {
-      "@type": [ "Telemetry" ],
+      "@type": [
+        "Telemetry"
+      ],
       "name": "button_event",
-      "displayName": "Button Event",
-      "schema": "boolean"
+      "schema": "boolean",
+      "displayName": {
+        "en": "Button Event"
+      }
     }
   ]
 }

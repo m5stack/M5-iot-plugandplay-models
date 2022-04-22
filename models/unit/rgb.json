@@ -2,7 +2,9 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:m5stack:unit:rgb;1",
   "@type": "Interface",
-  "displayName": "rgb",
+  "displayName": {
+    "en": "UNIT RGB"
+  },
   "contents": [
     {
       "@type": "Command",
@@ -14,26 +16,37 @@
           "fields": [
             {
               "name": "index",
-              "displayName": "Index of LED",
-              "schema": "integer"
+              "schema": "integer",
+              "displayName": {
+                "en": "Index of RGB LED"
+              }
             },
             {
               "name": "red",
-              "displayName": "Red color",
-              "schema": "integer"
+              "schema": "integer",
+              "displayName": {
+                "en": "Red color"
+              }
             },
             {
               "name": "green",
-              "displayName": "Green color",
-              "schema": "integer"
+              "schema": "integer",
+              "displayName": {
+                "en": "Green color"
+              }
             },
             {
               "name": "blue",
-              "displayName": "Blue color",
-              "schema": "integer"
+              "schema": "integer",
+              "displayName": {
+                "en": "Blue color"
+              }
             }
           ]
         }
+      },
+      "displayName": {
+        "en": "Set RGB color by index"
       }
     },
     {
@@ -41,8 +54,13 @@
       "name": "set_rgb_brightness",
       "request": {
         "name": "brightness",
-        "displayName": "All LED Brightness",
-        "schema": "integer"
+        "schema": "integer",
+        "displayName": {
+          "en": "All RGB LED Brightness"
+        }
+      },
+      "displayName": {
+        "en": "Set RGB brightness"
       }
     }
   ]

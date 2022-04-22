@@ -1,0 +1,46 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:m5stack:unit:env;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "UNIT ENV(I/II/III)"
+  },
+  "contents": [
+    {
+      "@type": [
+        "Telemetry",
+        "Temperature"
+      ],
+      "name": "temperature",
+      "schema": "double",
+      "unit": "degreeCelsius",
+      "displayName": {
+        "en": "Temperature"
+      }
+    },
+    {
+      "@type": [
+        "Telemetry",
+        "RelativeHumidity"
+      ],
+      "name": "humidity",
+      "schema": "double",
+      "unit": "percent",
+      "displayName": {
+        "en": "Humidity"
+      }
+    },
+    {
+      "@type": [
+        "Telemetry",
+        "Pressure"
+      ],
+      "name": "pressure",
+      "schema": "double",
+      "unit": "pascal",
+      "displayName": {
+        "en": "Pressure"
+      }
+    }
+  ]
+}

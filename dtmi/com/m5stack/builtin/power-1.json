@@ -2,19 +2,21 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:m5stack:builtin:power;1",
   "@type": "Interface",
-  "displayName": "power manage",
+  "displayName": {
+    "en": "Power Management"
+  },
   "contents": [
     {
       "@type": [
         "Telemetry",
         "Voltage"
       ],
-      "displayName": {
-        "en": "Battery voltage"
-      },
       "name": "bat_voltage",
       "schema": "double",
-      "unit": "volt"
+      "unit": "volt",
+      "displayName": {
+        "en": "Battery Voltage"
+      }
     }
   ]
 }

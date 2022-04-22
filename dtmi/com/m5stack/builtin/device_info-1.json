@@ -2,7 +2,9 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:m5stack:builtin:device_info;1",
   "@type": "Interface",
-  "displayName": "device information",
+  "displayName": {
+    "en": "Device Information"
+  },
   "contents": [
     {
       "@type": "Property",
@@ -25,7 +27,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Device serial number"
+        "en": "Device Serial Number"
       },
       "name": "device_sn",
       "schema": "string",
@@ -34,7 +36,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Device MAC address"
+        "en": "Device MAC Address"
       },
       "name": "device_mac",
       "schema": "string",
@@ -43,7 +45,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Firmware verison"
+        "en": "Firmware Verison"
       },
       "name": "fw_version",
       "schema": "string",
