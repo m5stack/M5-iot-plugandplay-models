@@ -1,6 +1,6 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:m5stack:core:core2;1",
+  "@id": "dtmi:m5stack:core:core2;1",
   "@type": "Interface",
   "displayName": {
     "en-US": "M5Stack Core2"
@@ -9,37 +9,37 @@
     {
       "@type": "Component",
       "name": "Speaker",
-      "schema": "dtmi:com:m5stack:builtin:speaker;1"
+      "schema": "dtmi:m5stack:builtin:speaker;1"
     },
     {
       "@type": "Component",
       "name": "Microphone",
-      "schema": "dtmi:com:m5stack:builtin:microphone;1"
+      "schema": "dtmi:m5stack:builtin:microphone;1"
     },
     {
       "@type": "Component",
       "name": "IMU",
-      "schema": "dtmi:com:m5stack:builtin:imu;1"
+      "schema": "dtmi:m5stack:builtin:imu;1"
     },
     {
       "@type": "Component",
       "name": "RTC",
-      "schema": "dtmi:com:m5stack:builtin:rtc;1"
+      "schema": "dtmi:m5stack:builtin:rtc;1"
     },
     {
       "@type": "Component",
       "name": "Power",
-      "schema": "dtmi:com:m5stack:builtin:power;1"
+      "schema": "dtmi:m5stack:builtin:power;1"
     },
     {
       "@type": "Component",
       "name": "DeviceInformation",
-      "schema": "dtmi:com:m5stack:builtin:device_info;1"
+      "schema": "dtmi:m5stack:builtin:device_info;1"
     },
     {
       "@type": "Component",
       "name": "Screen",
-      "schema": "dtmi:com:m5stack:builtin:screen;1"
+      "schema": "dtmi:m5stack:builtin:screen;1"
     }
   ]
 }

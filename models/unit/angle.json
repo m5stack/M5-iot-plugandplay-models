@@ -1,6 +1,6 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:m5stack:unit:angle;1",
+  "@id": "dtmi:m5stack:unit:angle;1",
   "@type": "Interface",
   "displayName": {
     "en-US": "UNIT Angle"
