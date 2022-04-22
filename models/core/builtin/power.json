@@ -3,7 +3,7 @@
   "@id": "dtmi:com:m5stack:builtin:power;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Power Management"
+    "en-US": "Power Management"
   },
   "contents": [
     {
@@ -15,7 +15,7 @@
       "schema": "double",
       "unit": "volt",
       "displayName": {
-        "en": "Battery Voltage"
+        "en-US": "Battery Voltage"
       }
     }
   ]

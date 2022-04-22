@@ -3,7 +3,7 @@
   "@id": "dtmi:com:m5stack:unit:button;1",
   "@type": "Interface",
   "displayName": {
-    "en": "UNIT Button"
+    "en-US": "UNIT Button"
   },
   "contents": [
     {
@@ -13,7 +13,7 @@
       "name": "button_event",
       "schema": "boolean",
       "displayName": {
-        "en": "Button Event"
+        "en-US": "Button Event"
       }
     }
   ]

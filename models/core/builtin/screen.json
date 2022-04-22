@@ -3,7 +3,7 @@
   "@id": "dtmi:com:m5stack:builtin:screen;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Screen Management"
+    "en-US": "Screen Management"
   },
   "contents": [
     {
@@ -12,7 +12,7 @@
       "schema": "integer",
       "writable": true,
       "displayName": {
-        "en": "Screen Brightness"
+        "en-US": "Screen Brightness"
       }
     }
   ]

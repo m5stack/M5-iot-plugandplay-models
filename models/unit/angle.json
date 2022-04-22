@@ -3,7 +3,7 @@
   "@id": "dtmi:com:m5stack:unit:angle;1",
   "@type": "Interface",
   "displayName": {
-    "en": "UNIT Angle"
+    "en-US": "UNIT Angle"
   },
   "contents": [
     {
@@ -15,7 +15,7 @@
       "schema": "integer",
       "unit": "radian",
       "displayName": {
-        "en": "Angle"
+        "en-US": "Angle"
       }
     }
   ]
