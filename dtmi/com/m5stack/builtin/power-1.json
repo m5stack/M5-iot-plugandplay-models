@@ -1,0 +1,20 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:m5stack:builtin:power;1",
+  "@type": "Interface",
+  "displayName": "power manage",
+  "contents": [
+    {
+      "@type": [
+        "Telemetry",
+        "Voltage"
+      ],
+      "displayName": {
+        "en": "Battery voltage"
+      },
+      "name": "bat_voltage",
+      "schema": "double",
+      "unit": "volt"
+    }
+  ]
+}

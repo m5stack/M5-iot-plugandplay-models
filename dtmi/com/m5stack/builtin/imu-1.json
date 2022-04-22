@@ -2,7 +2,7 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:m5stack:builtin:imu;1",
   "@type": "Interface",
-  "displayName": "imu",
+  "displayName": "IMU",
   "contents": [
     {
       "@type": [ "Telemetry", "Acceleration" ],

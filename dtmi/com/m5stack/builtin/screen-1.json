@@ -1,0 +1,17 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:com:m5stack:builtin:screen;1",
+    "@type": "Interface",
+    "displayName": "screen manage",
+    "contents": [
+      {
+        "@type": "Property",
+        "displayName": {
+          "en": "brightness"
+        },
+        "name": "brightness",
+        "schema": "integer",
+        "writable": true
+      }
+    ]
+  }

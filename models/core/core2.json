@@ -16,13 +16,28 @@
     },
     {
       "@type": "Component",
-      "name": "imu",
+      "name": "IMU",
       "schema": "dtmi:com:m5stack:builtin:imu;1"
     },
     {
       "@type": "Component",
-      "name": "rtc",
+      "name": "RTC",
       "schema": "dtmi:com:m5stack:builtin:rtc;1"
+    },
+    {
+      "@type": "Component",
+      "name": "power",
+      "schema": "dtmi:com:m5stack:builtin:power;1"
+    },
+    {
+      "@type": "Component",
+      "name": "device_info",
+      "schema": "dtmi:com:m5stack:builtin:device_info;1"
+    },
+    {
+      "@type": "Component",
+      "name": "screen",
+      "schema": "dtmi:com:m5stack:builtin:screen;1"
     }
   ]
 }
