@@ -18,17 +18,17 @@
               "schema": "integer"
             },
             {
-              "name": "red_value",
+              "name": "red",
               "displayName": "Red color",
               "schema": "integer"
             },
             {
-              "name": "green_value",
+              "name": "green",
               "displayName": "Green color",
               "schema": "integer"
             },
             {
-              "name": "blue_value",
+              "name": "blue",
               "displayName": "Blue color",
               "schema": "integer"
             }

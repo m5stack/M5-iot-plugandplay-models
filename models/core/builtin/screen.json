@@ -7,7 +7,7 @@
       {
         "@type": "Property",
         "displayName": {
-          "en": "brightness"
+          "en": "Screen brightness"
         },
         "name": "brightness",
         "schema": "integer",
