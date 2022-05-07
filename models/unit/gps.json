@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "dtmi:dtdl:context;2",
+    "dtmi:iotcentral:context;2"
+  ],
+  "@id": "dtmi:m5stack:unit:gps;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "GPS"
+  },
+  "contents": [
+    {
+      "@type": [
+        "Telemetry",
+        "Location"
+      ],
+      "name": "devicelocation",
+      "schema": "geopoint",
+      "displayName": {
+        "en": "Device Location"
+      }
+    }
+  ]
+}
