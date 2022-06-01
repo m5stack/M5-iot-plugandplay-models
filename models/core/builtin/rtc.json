@@ -3,14 +3,14 @@
   "@id": "dtmi:m5stack:builtin:rtc;1",
   "@type": "Interface",
   "displayName": {
-    "en-US": "Real Time Clock"
+    "en": "Real Time Clock"
   },
   "contents": [
     {
       "@type": "Command",
       "name": "set_rtc",
       "displayName": {
-        "en-US": "Set RTC Date and Time"
+        "en": "Set RTC Date and Time"
       },
       "request": {
         "name": "date_time",
@@ -21,7 +21,7 @@
       "@type": "Command",
       "name": "get_rtc",
       "displayName": {
-        "en-US": "Get RTC Date and Time"
+        "en": "Get RTC Date and Time"
       },
       "response": {
         "name": "date_time",

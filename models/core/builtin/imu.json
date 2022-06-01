@@ -3,7 +3,7 @@
   "@id": "dtmi:m5stack:builtin:imu;1",
   "@type": "Interface",
   "displayName": {
-    "en-US": "Inertial Measurement Units"
+    "en": "Inertial Measurement Units"
   },
   "contents": [
     {
@@ -15,7 +15,7 @@
       "schema": "double",
       "unit": "metrePerSecondSquared",
       "displayName": {
-        "en-US": "Accel x-axis"
+        "en": "Accel x-axis"
       }
     },
     {
@@ -27,7 +27,7 @@
       "schema": "double",
       "unit": "metrePerSecondSquared",
       "displayName": {
-        "en-US": "Accel y-axis"
+        "en": "Accel y-axis"
       }
     },
     {
@@ -39,7 +39,7 @@
       "schema": "double",
       "unit": "metrePerSecondSquared",
       "displayName": {
-        "en-US": "Accel z-axis"
+        "en": "Accel z-axis"
       }
     },
     {
@@ -51,7 +51,7 @@
       "schema": "double",
       "unit": "degreePerSecond",
       "displayName": {
-        "en-US": "Gyro x-axis"
+        "en": "Gyro x-axis"
       }
     },
     {
@@ -63,7 +63,7 @@
       "schema": "double",
       "unit": "degreePerSecond",
       "displayName": {
-        "en-US": "Gyro y-axis"
+        "en": "Gyro y-axis"
       }
     },
     {
@@ -75,7 +75,7 @@
       "schema": "double",
       "unit": "degreePerSecond",
       "displayName": {
-        "en-US": "Gyro z-axis"
+        "en": "Gyro z-axis"
       }
     }
   ]

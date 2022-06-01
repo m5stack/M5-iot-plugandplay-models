@@ -3,7 +3,7 @@
   "@id": "dtmi:m5stack:builtin:speaker;1",
   "@type": "Interface",
   "displayName": {
-    "en-US": "Speaker"
+    "en": "Speaker"
   },
   "contents": [
     {
@@ -14,7 +14,7 @@
         "schema": "string"
       },
       "displayName": {
-        "en-US": "Play WAV file from device internal file system(flash)"
+        "en": "Play WAV file from device internal file system(flash)"
       }
     },
     {
@@ -25,7 +25,7 @@
         "schema": "string"
       },
       "displayName": {
-        "en-US": "Play WAV file from SD card"
+        "en": "Play WAV file from SD card"
       }
     },
     {
@@ -36,7 +36,7 @@
         "schema": "string"
       },
       "displayName": {
-        "en-US": "Play WAV file from URL"
+        "en": "Play WAV file from URL"
       }
     }
   ]

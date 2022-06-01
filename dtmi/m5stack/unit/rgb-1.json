@@ -3,7 +3,7 @@
   "@id": "dtmi:m5stack:unit:rgb;1",
   "@type": "Interface",
   "displayName": {
-    "en-US": "UNIT RGB"
+    "en": "UNIT RGB"
   },
   "contents": [
     {
@@ -18,35 +18,35 @@
               "name": "index",
               "schema": "integer",
               "displayName": {
-                "en-US": "Index of RGB LED"
+                "en": "Index of RGB LED"
               }
             },
             {
               "name": "red",
               "schema": "integer",
               "displayName": {
-                "en-US": "Red color"
+                "en": "Red color"
               }
             },
             {
               "name": "green",
               "schema": "integer",
               "displayName": {
-                "en-US": "Green color"
+                "en": "Green color"
               }
             },
             {
               "name": "blue",
               "schema": "integer",
               "displayName": {
-                "en-US": "Blue color"
+                "en": "Blue color"
               }
             }
           ]
         }
       },
       "displayName": {
-        "en-US": "Set RGB color by index"
+        "en": "Set RGB color by index"
       }
     },
     {
@@ -56,11 +56,11 @@
         "name": "brightness",
         "schema": "integer",
         "displayName": {
-          "en-US": "All RGB LED Brightness"
+          "en": "All RGB LED Brightness"
         }
       },
       "displayName": {
-        "en-US": "Set RGB brightness"
+        "en": "Set RGB brightness"
       }
     }
   ]

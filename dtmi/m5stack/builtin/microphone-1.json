@@ -3,14 +3,14 @@
   "@id": "dtmi:m5stack:builtin:microphone;1",
   "@type": "Interface",
   "displayName": {
-    "en-US": "Microphone"
+    "en": "Microphone"
   },
   "contents": [
     {
       "@type": "Command",
       "name": "record",
       "displayName": {
-        "en-US": "Record Sound"
+        "en": "Record Sound"
       },
       "request": {
         "name": "input_param",
@@ -21,14 +21,14 @@
               "name": "duration",
               "schema": "integer",
               "displayName": {
-                "en-US": "Recording Duration"
+                "en": "Recording Duration"
               }
             },
             {
               "name": "filename",
               "schema": "string",
               "displayName": {
-                "en-US": "Output Filename"
+                "en": "Output Filename"
               }
             }
           ]

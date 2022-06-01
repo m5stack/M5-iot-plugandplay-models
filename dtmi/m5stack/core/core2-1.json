@@ -3,7 +3,7 @@
   "@id": "dtmi:m5stack:core:core2;1",
   "@type": "Interface",
   "displayName": {
-    "en-US": "M5Stack Core2"
+    "en": "M5Stack Core2"
   },
   "contents": [
     {
