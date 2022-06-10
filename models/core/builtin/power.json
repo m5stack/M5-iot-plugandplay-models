@@ -3,7 +3,7 @@
   "@id": "dtmi:m5stack:builtin:power;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Power Management"
+    "en": "Builtin Power Management"
   },
   "contents": [
     {

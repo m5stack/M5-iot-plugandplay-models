@@ -3,7 +3,7 @@
   "@id": "dtmi:m5stack:builtin:device_info;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Device Information"
+    "en": "Builtin Device Information"
   },
   "contents": [
     {

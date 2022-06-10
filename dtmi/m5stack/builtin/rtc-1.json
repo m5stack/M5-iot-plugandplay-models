@@ -3,7 +3,7 @@
   "@id": "dtmi:m5stack:builtin:rtc;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Real Time Clock"
+    "en": "Builtin RTC"
   },
   "contents": [
     {

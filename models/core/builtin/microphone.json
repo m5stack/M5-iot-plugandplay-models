@@ -3,7 +3,7 @@
   "@id": "dtmi:m5stack:builtin:microphone;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Microphone"
+    "en": "Builtin Microphone"
   },
   "contents": [
     {

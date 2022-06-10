@@ -3,7 +3,7 @@
   "@id": "dtmi:m5stack:builtin:imu;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Inertial Measurement Units"
+    "en": "Builtin IMU"
   },
   "contents": [
     {

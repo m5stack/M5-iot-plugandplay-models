@@ -6,7 +6,7 @@
   "@id": "dtmi:m5stack:unit:gps;1",
   "@type": "Interface",
   "displayName": {
-    "en": "GPS"
+    "en": "UNIT GPS"
   },
   "contents": [
     {

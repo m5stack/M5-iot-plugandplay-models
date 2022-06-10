@@ -3,7 +3,7 @@
   "@id": "dtmi:m5stack:builtin:screen;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Screen Management"
+    "en": "Builtin Screen Management"
   },
   "contents": [
     {

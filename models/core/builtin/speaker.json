@@ -3,7 +3,7 @@
   "@id": "dtmi:m5stack:builtin:speaker;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Speaker"
+    "en": "Builtin Speaker"
   },
   "contents": [
     {
